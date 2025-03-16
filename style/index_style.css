@@ -12,3 +12,7 @@
     text-decoration: underline;
     text-underline-offset: 5px;
 }
+
+.bg-main{
+    background-color: #F6F8D5 !important;
+}
