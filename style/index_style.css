@@ -1,1 +1,14 @@
 @import url(main.css);
+
+.title-font{
+    font-family: 'Italiana';
+    font-weight: bold;
+}
+.second-font{
+    font-family: 'Quicksand';
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}

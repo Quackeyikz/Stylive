@@ -37,3 +37,7 @@
     font-family: 'Poppins';
     src: url(fonts/Poppins/Poppins-Regular.ttf);
 }
+
+.bg-main{
+    background-color: #F6F8D5 !important;
+}
