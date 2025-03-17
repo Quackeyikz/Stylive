@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +10,138 @@
     <link rel="stylesheet" href="style/index_style.css">
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
 </head>
+
 <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top ps-md-3 pe-md-3">
+        <div class="container-fluid">
+            <a class="navbar-brand font-italiana fs-1" href="#">Stylive</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="manage_set.html">Your Wardrobe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="calendar_set.html">Outfit Schedule</a>
+                    </li>
+                </ul>
+                <a class="navbar-text" href="sign-up.html">
+                    <i class="bi bi-person-circle"></i>&nbsp;&nbsp;Register
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <header class="hero-container container-fluid">
+        <div class="hero container pt-5">
+            <img src="image/Pseudo_logo_image-Stylive.png">
+            <h1 class="title-font">Stylive, Your Choice<br><i>of Outfit Scheduling</i></h1>
+            <p class="title-secondary-font">Fit Your Daily Outfit</p>
+            <a class="mt-3" href="manage_set.html">Get Started <span class="material-symbols-outlined">chevron_right</span></a>
+        </div>
+    </header>
+
+    <!-- Main -->
+    <main class="container-fluid">
+        <div class="features-mini-container container-fluid pt-4 pb-3">
+            <div class="features-mini container d-flex flex-column justify-content-center align-items-center text-center">
+                <h3><b>What You Can Do</b></h3>
+                <small>With Stylive</small>
+                <div class="mt-3 d-flex justify-content-around w-100">
+                    <div class="feature-mini-section p-4 d-flex flex-column align-items-center gap-3">
+                        <span><i class="bi bi-person-standing-dress"></i></span>
+                        <h5>Manage your outfits</h5>
+                    </div>
+                    <div class="feature-mini-section p-4 d-flex flex-column align-items-center gap-3">
+                        <span><i class="bi bi-bag-fill"></i></span>
+                        <h5>Organize Wardrobe</h5>
+                    </div>
+                    <div class="feature-mini-section p-4 d-flex flex-column align-items-center gap-3">
+                        <span><i class="bi bi-calendar2-week-fill"></i></span>
+                        <h5>Schedule your outfits</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Features -->
+    <div class="container-fluid mt-5 mb-5">
+        <div class="features container d-flex gap-5 justify-content-between">
+            <section class="features-left d-flex flex-column gap-3">
+                <small class="font-raleway">FEATURES</small>
+                <h1 class="font-italiana">Why <br>Stylive?</h1>
+            </section>
+            <section class="features-right d-flex flex-column gap-3">
+                <div class="d-flex flex-column gap-2">
+                    <h4>Managing Outfits Collection with Ease</h4>
+                    <p>Manage your outfits collection effortlessly with our intuitive interface and powerful tools. Easily categorize, sort, and update your wardrobe to keep everything organized and accessible.</p>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <h4>Creating Your Own Ideal Outfit Design</h4>
+                    <p>Create your perfect outfit designs with our easy-to-use design tools and customization options. Experiment with different styles, colors, and accessories to find the perfect look for any occasion.</p>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <h4>Bringing Outfit to Life With Photoscan</h4>
+                    <p>Bring your outfits to life with our advanced photoscan technology, capturing every detail. Visualize your clothing in high resolution and see how different pieces come together to create stunning ensembles.</p>
+                </div>
+                <div class="d-flex flex-column gap-2">
+                    <h4>Keep Track of Your Outfit with Schedule</h4>
+                    <p>Keep track of your outfits and schedule them with our convenient scheduling features. Plan your wardrobe for the week ahead and ensure you always have the perfect outfit ready for any event.</p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid pt-5 pb-5">
+        <div class="footer container d-flex gap-5">
+            <div>
+                <!-- <h1 class="font-raleway">Stylive</h1> -->
+                <img src="image/Pseudo_logo-Stylive.png" width="100px"><br><br>
+                <small>Made with Love, <i>Ngotak Team</i></small><br><br>
+
+                <p>Choosing Stylive means embracing a seamless and stylish way to manage your wardrobe. Our platform offers intuitive tools, advanced features, and a user-friendly interface to help you stay organized and fashionable. Join us and experience the convenience and creativity that Stylive brings to your daily outfit planning.</p>
+            </div>
+            <div class="d-flex flex-column gap-2">
+                <h3 class="font-montserrat"><b>Contact</b></h3>
+                <a href="https://github.com/Quackeyikz/"><i class="bi bi-github"></i>&nbsp;&nbsp;Github • Quackeyikz</a>
+                <a href="https://github.com/Rezdblz"><i class="bi bi-github"></i>&nbsp;&nbsp;Github • Rezdblz</a>
+                <a href="https://www.instagram.com/erik.yudh4"><i class="bi bi-instagram"></i>&nbsp;&nbsp;Instagram • erik.yudh4</a>
+                <a href="https://www.instagram.com/el.aisyle.lys"><i class="bi bi-instagram"></i>&nbsp;&nbsp;Instagram • el.aislye.lys</a>
+                <a href="https://www.instagram.com/dimas.r.rzz"><i class="bi bi-instagram"></i>&nbsp;&nbsp;Instagram • dimas.r.rzz</a>
+                <a href="https://www.linkedin.com/in/erik-triayuda-wijaya/"><i class="bi bi-linkedin"></i>&nbsp;&nbsp;Linkedin</a>
+            </div>
+            <div class="d-flex flex-column gap-2">
+                <h3 class="font-montserrat"><b>Our Pages</b></h3>
+                <a href="index.html">Home</a>
+                <a href="manage_set.html">Wardrobe Management</a>
+                <a href="calendar_set.html">Outfit Schedule</a>
+                <a href="sign-in.html">Resgiter Now!</a>
+            </div>
+            <div>
+                <h4 class="text-center font-italiana">Fit Your <br> Daily Outfit</h4>
+            </div>
+        </div>
+    </footer>
+
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 </html>
